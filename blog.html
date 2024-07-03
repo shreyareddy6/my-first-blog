@@ -4,8 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/blog.css" />
   </head>
   <body>
-    <h1>Welcome to your blog</h1>
+    <div class="container dark">
+      <header>
+        <div class="toggle-switch row">
+          <div class="col">
+            <p>🌚</p>
+          </div>
+          <label class="switch col">
+            <input type="checkbox" id="theme-switcher" />
+            <span class="slider round"></span>
+          </label>
+          <div class="col">
+            <p>🌞</p>
+          </div>
+        </div>
+      </header>
+      <section class="blogs-list"></section>
+    </div>
+    <script src="./js/logic.js"></script>
+    <script src="./js/blog.js"></script>
   </body>
 </html>
