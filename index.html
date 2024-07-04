@@ -9,11 +9,13 @@
     <!-- used it for form styling -->
     <link rel="stylesheet" href="./css/form.css" />
   </head>
-  <body>
+  <body class="dark">
     <!-- The whole container is styled for theme change -->
-    <div class="container dark">
+    <div>
       <!-- Header -->
       <header>
+        <!-- heading -->
+        <h1>Blogbook</h1>
         <!-- Theme switcher -->
         <div class="toggle-switch row">
           <div class="col">
@@ -31,7 +33,9 @@
       <!-- The logo and the blog details -->
       <section class="blog-entry">
         <!-- logo -->
-        <section class="logo"></section>
+        <section class="logo">
+          <img class="logo-img" src="./images/logo.png" alt="logo" />
+        </section>
 
         <!-- blog entry -->
         <section class="blog-form section-center">
@@ -74,17 +78,18 @@
           </form>
         </section>
       </section>
-      <footer>
-        <ul class="footer-links">
-          <li>
-            <a href="" class="footer-link">Portfolio</a>
-          </li>
-          <li>
-            <a href="" class="footer-link">Blog</a>
-          </li>
-        </ul>
-      </footer>
     </div>
+    <footer>
+      <ul class="footer-links">
+        <li>
+          <a href="" class="footer-link">Portfolio</a>
+        </li>
+        <li>
+          <a href="" class="footer-link">Blog</a>
+        </li>
+      </ul>
+      <p>Made with 💕 by Shreya</p>
+    </footer>
     <script src="./js/logic.js"></script>
     <script src="./js/form.js"></script>
   </body>
