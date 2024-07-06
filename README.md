@@ -23,11 +23,11 @@ The following screenshots shows the blog's appearance
 
 You can find the project repository [here](https://github.com/shreyareddy6/my-first-blog.git)
 
-You can find the deployed page [here](https://shreyareddy6.github.io/employee-payroll-tracker/)
+You can find the deployed page [here](https://shreyareddy6.github.io/my-first-blog/index.html)
 
 ## Credits
 
-N/A
+Used John Smilga's basic HTML & CSS projects as reference.
 
 ## License
 
