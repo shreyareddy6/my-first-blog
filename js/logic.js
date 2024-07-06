@@ -12,12 +12,10 @@ themeSwitcher.addEventListener("click", function () {
   if (mode === "dark") {
     mode = "light";
     body.setAttribute("class", "light");
-    // footer.setAttribute("class", "light");
   }
   // If mode is light, apply dark background
   else {
     mode = "dark";
     body.setAttribute("class", "dark");
-    // footer.setAttribute("class", "dark");
   }
 });

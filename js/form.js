@@ -13,10 +13,13 @@ function displayMessage(type, message) {
 
 submitBtn.addEventListener("click", function (event) {
   if (userName.value === "") {
+    event.preventDefault();
     displayMessage("error", "Username cannot be blank");
   } else if (blogTitle.value === "") {
+    event.preventDefault();
     displayMessage("error", "Title cannot be blank");
   } else if (blogContent.value === "") {
+    event.preventDefault();
     displayMessage("error", "Content cannot be blank");
   } else {
     const storedblogs = JSON.parse(localStorage.getItem("blogs"));

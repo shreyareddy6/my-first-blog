@@ -4,13 +4,14 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
-.container {
-  height: fit-content;
+.blogs-list {
+  min-height: 82vh;
 }
 .blog-card {
   border: 3px solid;
   padding: 20px;
   margin: 1rem;
+  padding-bottom: 0;
 }
 
 .blog-card h2 {
@@ -18,9 +19,10 @@
 }
 
 .blog-card p {
-  padding: 10px;
+  padding: 20px 0;
 }
 
-.blogs-list .blog-card:last-child {
+.blog-card p:last-child {
   margin-bottom: 0;
+  font-style: italic;
 }
